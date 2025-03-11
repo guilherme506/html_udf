@@ -1,0 +1,36 @@
+p { 
+    font-family: 'apple-system', sans-serif; font-size: medium;
+}
+.destaque {
+     color:#3498db; 
+    }
+#cabecalho {
+    text-align:justify ;
+}
+.caixa {
+    margin: 10px;padding-right:20px;border: #3498db
+}
+.comteiner{
+    display: flex;justify-content: space-between;
+}
+.item{
+    flex-grow: 1;
+}
+.grid-container{
+    display: grid;grid-template-columns:repeat(3,1fr);gap: 10px;
+}
+.botao
+{
+    transition:background-color 0.3s ease;
+} .botao:hover{
+    background-color: blueviolet;
+}
+@keyframes girar{
+     from {
+        transform: rotate(0deg);
+    }
+} to {
+    transform: rotate(360deg);
+}
+.icone
+{animation: girar 2s infinity linear;}
