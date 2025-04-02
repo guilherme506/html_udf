@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    pad: 0;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding: 50px 0;
+}
+
+.logo {
+    font-size: 2rem;
+    font-family: times, serif;
+    font-weight: bold;
+    color: #F2F2F2;
+    text-shadow: 1px 1px #000;
+
+}
+
+header {
+    background-color: #BFA79F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+}
+
+#menu li {
+    margin-left: 20px;
+}
+
+#menu a:link,
+a:visited {
+    font-size: 1.5rem;
+    padding: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    text-shadow: 1px 1px #000;
+}
+
+#menu a:active,
+a:hover {
+    background-color: #BF7463;
+    color: #000;
+}
+
+#banner {
+    background-image: url('../images/F.jpg.avif');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+#about {
+    background-color: #D9D2D0;
+    height: 100vh;
+    padding: 50px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: justify;
+
+}
+#gallery {
+    background-color: #D9D2D0;
+    height: 100vh;
+    padding: 50px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: justify;
+
+}
+
+#gallery img {
+    width: 250px;
+    height: 200px;
+    border-radius: 20%;
+    box-shadow: 10px 10px 25px #000;
+    margin: 30px;
+}
+
