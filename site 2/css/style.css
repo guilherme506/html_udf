@@ -32,6 +32,7 @@ header {
     padding: 10px 20px;
     position: fixed;
     width: 100%;
+    box-shadow: 5px 5px 10px black;
 }
 
 #menu {
@@ -93,3 +94,46 @@ a:hover {
     margin: 30px;
 }
 
+#maps{
+    background-color: #D9D2D0;
+    margin-top: 0px;
+    font-size: 1.2;
+    box-shadow:1px 1px 10px #000;
+}
+#contacts{
+    background-color:#D9D2D0 ;
+    margin: 0 auto;
+    font-size: 20px;
+    width: 100%;
+}
+#contacts label, button{
+    display: block;
+    margin-top: 20px;
+
+}
+
+#contacts input, textarea{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: floralwhite;
+    border: none;
+    font-size: 1.1rem;    
+}
+ #contacts button{
+    background-color:#BF7463 ;
+    padding: 20px;
+    border-radius: 5px 10px;
+    border: none;
+
+}
+#contacts button :hover{
+    background-color:#D9D2D0;
+    border: 1px #FFF solid;
+}
+footer{
+    background-color: #BF7463;
+    text-align: center;
+    color: FFF;
+    padding: 10px;
+}
