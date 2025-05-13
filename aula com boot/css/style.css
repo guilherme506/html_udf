@@ -1,0 +1,15 @@
+.Logo {
+            font-family: "Playwrite RO", system-ui;
+            font-weight: normal;
+            font-size: 3rem;
+}
+header {
+   background-color: #75574F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 5px 5px 10px black;
+}
